@@ -1,7 +1,7 @@
 # MasterMind
-## a console game in C language
+## console game in C language
 
-## Instructions
+## Instructions:
 
 ## 1) Compile command
 
