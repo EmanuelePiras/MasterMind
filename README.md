@@ -10,8 +10,11 @@
 It will compile as:
 
 gcc -c -o mastermind_functions.o mastermind_functions.c -Wall -Wextra -Werror
+
 gcc -c -o mastermind_data_struct.o mastermind_data_struct.c -Wall -Wextra -Werror
+
 gcc -c -o mastermind.o mastermind.c -Wall -Wextra -Werror
+
 gcc -o mastermind mastermind_functions.o mastermind_data_struct.o mastermind.o -Wall -Wextra -Werror
 
 ## 2) Clean up command
