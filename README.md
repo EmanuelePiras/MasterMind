@@ -1,11 +1,11 @@
-#MasterMind
-##a console game in C language
+# MasterMind
+## a console game in C language
 
 ## Instructions
 
-1) Compile command
+## 1) Compile command
 
-# make
+## make
 
 It will compile as:
 
@@ -14,13 +14,13 @@ gcc -c -o mastermind_data_struct.o mastermind_data_struct.c -Wall -Wextra -Werro
 gcc -c -o mastermind.o mastermind.c -Wall -Wextra -Werror
 gcc -o mastermind mastermind_functions.o mastermind_data_struct.o mastermind.o -Wall -Wextra -Werror
 
-2) Clean up command
+## 2) Clean up command
 
-# make clean
+## make clean
 
 it will clean up object files (.o) and the executable programa (mastermind)
 
-3) Run the program
+## 3) Run the program
 
 Usage: ./mastermind [-d] [-h]
         -d [Debug]: prints out the secret code for debug
@@ -28,5 +28,5 @@ Usage: ./mastermind [-d] [-h]
 
 from the current directory or use the absolute path (/path/to/some/where/mastermind)
 
-4) Known issues
+## 4) Known issues
 In case of unicode characters visualization problems, try to change font type (mono?) in your terminal
