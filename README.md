@@ -1,5 +1,5 @@
-### MasterMind
-# a Master Mind console game in C language
+#MasterMind
+##a console game in C language
 
 ## Instructions
 
