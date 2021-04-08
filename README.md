@@ -26,7 +26,9 @@ it will clean up object files (.o) and the executable programa (mastermind)
 ## 3) Run the program
 
 Usage: ./mastermind [-d] [-h]
+
         -d [Debug]: prints out the secret code for debug
+        
         -h [Help]: this help
 
 from the current directory or use the absolute path (/path/to/some/where/mastermind)
