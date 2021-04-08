@@ -21,7 +21,7 @@ gcc -o mastermind mastermind_functions.o mastermind_data_struct.o mastermind.o -
 
 ## make clean
 
-it will clean up object files (.o) and the executable programa (mastermind)
+it will clean up object files (.o) and the executable program (mastermind)
 
 ## 3) Run the program
 
